@@ -1,0 +1,59 @@
+body{
+    background: radial-gradient(circle at 90%, rgb(189, 63, 63), rgb(255, 255, 55), rgb(3, 236, 3));
+    position: initial;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p, table, caption{
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-align: center;
+    font-size: 120%;
+}
+table{
+    border-collapse: collapse; 
+}
+td, th, caption {
+    border: 1px solid rgb(72, 97, 87);
+  }
+td{
+    font-style: italic;
+}
+caption{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 650;
+}
+
+li{
+	margin-left: auto;
+    margin-right: auto;
+    width: 30%; 
+    display: table;
+}
+
+input, select, button, output{
+	margin-left: auto;
+    margin-right: auto;
+    display:  table;
+}
+img{
+    margin-left: -8px;
+    margin-top: -3px;
+    } 
+.result{
+	margin-left: 10%;
+    margin-right:10%;
+	text-align: center;
+	font-style: italic;
+	font-family: fantasy;
+	font-size: 20px;
+}
+.searchTitle{
+	font-style: italic;
+	color: #002d2d;
+	font-weight: 600;
+}

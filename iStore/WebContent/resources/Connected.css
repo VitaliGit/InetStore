@@ -1,0 +1,9 @@
+body{
+    background: repeating-radial-gradient(circle farthest-side, rgb(206, 69, 69), rgb(219, 240, 105), rgb(131, 5, 103));
+}
+h1{
+    text-align: center;
+    color: rgb(55, 18, 92);
+    font-size: 35pt;
+    font-style: italic;
+}

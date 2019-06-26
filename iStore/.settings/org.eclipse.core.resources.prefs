@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/vironit/store/controller/ControllerFake.java=UTF-8
+encoding//src/main/java/com/vironit/store/dao/fake/BookDAOFake.java=UTF-8
+encoding//src/main/java/com/vironit/store/entity/person/User.java=UTF-8
+encoding//src/main/java/com/vironit/store/validation/PasswordAnnotation.java=UTF-8

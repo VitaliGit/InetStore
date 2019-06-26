@@ -1,0 +1,115 @@
+body {
+    
+    position: initial;
+    width: 99%;
+    background: radial-gradient(circle farthest-side, rgb(252, 255, 195), rgb(67, 255, 230), rgb(252, 203, 189));
+}
+
+h1 {
+    border: 10px rgb(73, 33, 112);
+    border-style: groove;
+    border-radius: 2%;
+    padding: 9pt;
+    text-align: center;
+    background-color: rgb(177, 19, 106);
+}
+
+a :visited, a:link{
+    color: rgb(72, 6, 110);
+    font: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+    display: block;
+    text-align: right;
+    padding: 17pt;
+}
+p{
+    display: block;
+    text-align: right;
+}
+#appearance{
+    font-size: 30pt;
+    text-align: center;
+    border: rgb(151, 55, 151) 10px inset;
+    background-color: rgb(227, 240, 53);
+    border-radius: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+label {
+    display: inline-block;
+    width:100pt;
+    font-weight: 600;
+    text-align: left;
+}
+
+input {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+input:hover {
+    background-color: rgb(33, 166, 199);
+}
+
+#btnConnect:hover {
+    background-color: rgb(134, 34, 180);
+}
+
+#btnConnect:active {
+    background-color: rgb(138, 1, 92);
+}
+.items{
+    display: inline-block;
+    text-align: left;
+    
+    font-size: 45px;
+}
+.lab{
+    
+    display: block;
+    text-align: center;
+    background-color: rgb(13, 148, 125);
+    width:100%;
+    border: ridge rgb(11, 11, 37) 4px;
+    border-radius: 4%;
+}
+.con{
+    display: block;
+    text-align: center;
+    font-size: 40%;
+    width:100%;
+    border: groove rgb(11, 11, 37) 3px;
+}
+#copyright {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: end;
+    position: fixed;
+    bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+#registration{
+    display: inline-block;
+    text-align: left;
+}
+#registration>label{
+    width: 100%;
+}
+i{
+	color: rgb(245, 8, 126);
+	font-size: 80%;
+}
+.NonValid{
+	color: #8c174d;
+	font-size: 85%;
+}
+.non{
+	text-align: center;
+	
+}

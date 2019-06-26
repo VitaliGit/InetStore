@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/' status="TRACE">
+
+    <Appenders>
+
+         <File name="file" fileName="MyStoreLog.log"> <!--C:/MyStoreLog.log MyStoreLog.log-->
+            <PatternLayout>
+                <Pattern>%p %t %c - %m%n</Pattern>
+            </PatternLayout>
+        </File>
+        <Console name="stdout" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%t] %-5p | %-60c | %m (%F:%L)%n"/>
+        </Console>
+        
+    </Appenders>
+
+    <Loggers>
+
+    
+        <Root level="trace">
+			<AppenderRef ref="file"/>
+            <AppenderRef ref="stdout" />
+        </Root>
+        
+    </Loggers>
+
+</log4j:configuration>
